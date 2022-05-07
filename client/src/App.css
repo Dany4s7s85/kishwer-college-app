@@ -1,0 +1,95 @@
+.NavMainDiv{
+    background-color: aliceblue;
+}
+
+.NavMainDiv ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.NavMainDiv li{
+    padding: 15px;
+}
+
+.CustomLink{
+    text-decoration: none;
+    color: black;
+}
+
+.CustomLink:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.NavMainDiv li:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.HomeBodyDiv{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.HomeBodyDiv p{
+    text-align: justify;
+}
+
+.HomeBodyDiv img{
+    width:100%
+}
+
+.HomeBodyDiv h2{
+    margin-top: 100px;
+}
+
+.FormMainDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.FormMainDiv div{
+    width: 400px;
+}
+
+.FormMainDiv input{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.FormMainDiv button{
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.StatusBodyMainDiv{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.StatusBodyMainDiv div{
+    width: 400px;
+}
+
+.StatusBodyMainDiv input {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.StatusBodyMainDiv button{
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
+
